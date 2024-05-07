@@ -62,3 +62,6 @@ keymap.set("n", "nn", ":tabnext<Return><C-w>w")
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 --
+--
+-- zen mode keymaps
+keymap.set("n", "zz", ":ZenMode<Return><C-w>w")
